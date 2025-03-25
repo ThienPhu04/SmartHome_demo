@@ -1,0 +1,36 @@
+{
+  "rooms": {
+    "living_room": {
+      "name": "Phòng khách",
+      "switches": {
+        
+      }
+    },
+    "kitchen": {
+      "name": "Nhà bếp",
+      "switches": {
+        
+      }
+    },
+    "bedroom_1": {
+      "name": "Phòng ngủ 1",
+      "switches": {
+        
+      }
+    },
+    "bedroom_2": {
+      "name": "Phòng ngủ 2",
+      "switches": {
+        
+      }
+    },
+    "bathroom": {
+      "name": "Phòng tắm",
+      "switches": {
+        
+      }
+    }
+  },
+  "logs": {
+  }
+}
