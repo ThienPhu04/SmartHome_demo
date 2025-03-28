@@ -375,7 +375,7 @@ Join our community of developers creating universal apps.
 </details>
 
 
-<details> <summary>📂 <strong>app/(tabs)/index.tsx</strong></summary>
+<details> <summary>📄 <strong>app/(tabs)/index.tsx</strong></summary>
 
 ```tsx
 import React, { useState, useEffect } from 'react';
@@ -458,7 +458,7 @@ export default HomeScreen;
 ```
 </details>
 
-<details> <summary>📂 <strong>app/_layout.tsx</strong></summary>
+<details> <summary>📄 <strong>app/_layout.tsx</strong></summary>
 
 ``` tsx
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
@@ -528,7 +528,7 @@ export default function RootLayout() {
 </details>
 
 
-<details> <summary>📂 <strong>app/+not-found.tsx</strong></summary>
+<details> <summary>📄 <strong>app/+not-found.tsx</strong></summary>
 
 ``` tsx
 
@@ -568,7 +568,7 @@ const styles = StyleSheet.create({
 ```
 </details>
 
-<details> <summary>📂 <strong>components/ui/AddDeviceButton.tsx</strong></summary>
+<details> <summary>📄 <strong>components/ui/AddDeviceButton.tsx</strong></summary>
 
 ```tsx
 import React from 'react';
@@ -631,7 +631,7 @@ export default AddDeviceButton;
 ```
 </details>
 
-<details> <summary>📂 <strong>components/AddRoom.tsx</strong></summary>
+<details> <summary>📄 <strong>components/AddRoom.tsx</strong></summary>
 
 ``` tsx
 import React, { useState } from 'react';
@@ -764,7 +764,7 @@ export default AddRoomButton;
 ```
 </details>
 
-<details> <summary>📂 <strong>components/CustomSwitch.tsx</strong></summary>
+<details> <summary>📄 <strong>components/CustomSwitch.tsx</strong></summary>
 
 ``` tsx
 import React from "react";
@@ -832,7 +832,7 @@ export default CustomSwitch;
 ```
 </details>
 
-<details> <summary>📂 <strong>components/CustomTabBar.tsx</strong></summary>
+<details> <summary>📄 <strong>components/CustomTabBar.tsx</strong></summary>
 
 ``` tsx
 import React from 'react';
@@ -906,7 +906,7 @@ const styles = StyleSheet.create({
 ```
 </details>
 
-<details> <summary>📂 <strong>components/HeaderHome.tsx</strong></summary>
+<details> <summary>📄 <strong>components/HeaderHome.tsx</strong></summary>
 
 ``` tsx
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -1013,7 +1013,7 @@ const styles = StyleSheet.create({
 </details>
 
 
-<details> <summary>📂 <strong>components/InfoCard.tsx</strong></summary>
+<details> <summary>📄 <strong>components/InfoCard.tsx</strong></summary>
 
 ```tsx
 import { FontAwesome } from '@expo/vector-icons';
@@ -1105,7 +1105,7 @@ export default InfoCard;
 </details>
 
 
-<details> <summary>📂 <strong>config/firebase.tsx</strong></summary>
+<details> <summary>📄 <strong>config/firebase.tsx</strong></summary>
 
 ```tsx
 import { initializeApp } from "firebase/app";
