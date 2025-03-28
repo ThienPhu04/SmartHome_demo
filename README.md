@@ -192,26 +192,76 @@ Join our community of developers creating universal apps.
   }
 
   const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      paddingHorizontal: 10,
-      backgroundColor: '#f4f6f8',
-    },
-    headerText: {
-      fontSize: 18,
-      fontWeight: 'bold',
-      textAlign: 'center',
-      marginVertical: 10,
-      color: '#333',
-    },
-    itemContainer: {
-      flexDirection: 'row',
-      marginVertical: 12,
-      alignItems: 'center',
-      padding: 12,
-      backgroundColor: 'white',
-      borderRadius: 10,
-      shadowColor: '#000
+  container: {
+    flex: 1,
+    paddingHorizontal: 10,
+    backgroundColor: '#f4f6f8',
+  },
+  headerText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginVertical: 10,
+    color: '#333',
+  },
+  itemContainer: {
+    flexDirection: 'row',
+    marginVertical: 12,
+    alignItems: 'center',
+    padding: 12,
+    backgroundColor: 'white',
+    borderRadius: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  timeContainer: {
+    minWidth: 70,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  timeText: {
+    textAlign: 'center',
+    backgroundColor: '#4CAF50',
+    color: 'white',
+    paddingVertical: 6,
+    paddingHorizontal: 10,
+    borderRadius: 15,
+    fontSize: 12,
+    fontWeight: 'bold',
+  },
+  circleLineContainer: {
+    alignItems: 'center',
+    marginHorizontal: 10,
+  },
+  circle: {
+    width: 16,
+    height: 16,
+    borderRadius: 8,
+    backgroundColor: '#1E88E5',
+  },
+  line: {
+    width: 2,
+    height: 40,
+    backgroundColor: '#1E88E5',
+  },
+  contentContainer: {
+    flex: 1,
+    paddingLeft: 10,
+  },
+  title: {
+    fontWeight: 'bold',
+    fontSize: 14,
+    color: '#333',
+  },
+  time: {
+    color: 'gray',
+    fontSize: 12,
+    marginTop: 2,
+  },
+});
 
 ```
 </details>
